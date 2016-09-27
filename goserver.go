@@ -48,8 +48,8 @@ func main() {
     // Serving at port 8443
     fmt.Println("Listening on 8443")
     log.Fatal(http.ListenAndServeTLS(":8443", "server.pem", "server.key", nil))
-    
-    //test function
-   func StubForTesting() string {
-    return "of the burger king"
+}
+
+func StubForTesting() string {
+    return "of the king"
 }
