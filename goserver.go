@@ -49,6 +49,7 @@ func main() {
     fmt.Println("Listening on 8443")
     log.Fatal(http.ListenAndServeTLS(":8443", "server.pem", "server.key", nil))
     
-    //hello world!
-    fmt.Printf("Hello, world.\n")
+    //test function
+   func StubForTesting() string {
+    return "of the burger king"
 }
