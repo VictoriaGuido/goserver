@@ -3,4 +3,5 @@ language: go
 go:
   - 1.6
 
-script: ./hello_test
+script: 
+- go test
