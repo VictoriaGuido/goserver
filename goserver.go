@@ -48,4 +48,7 @@ func main() {
     // Serving at port 8443
     fmt.Println("Listening on 8443")
     log.Fatal(http.ListenAndServeTLS(":8443", "server.pem", "server.key", nil))
+    
+    //hello world!
+    fmt.Printf("Hello, world.\n")
 }
